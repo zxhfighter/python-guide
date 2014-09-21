@@ -7,8 +7,8 @@ Beginner
 The Python Tutorial
 ~~~~~~~~~~~~~~~~~~~~
 
-This is the official tutorial, it covers all the basics, and offers a tour of the
-language and the standard library, recommended for those who need a quickstart
+This is the official tutorial. It covers all the basics, and offers a tour of the
+language and the standard library. Recommended for those who need a quickstart
 guide to the language.
 
     `The Python Tutorial <http://docs.python.org/tutorial/index.html>`_
@@ -154,6 +154,16 @@ development, version control, and optimization/profiling.
     `Expert Python Programming <http://www.packtpub.com/expert-python-programming/book>`_
 
 
+A Guide to Python's Magic Methods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is a collection of blog posts by Rafe Kettler which explain 'magic methods'
+in Python.  Magic methods are surrounded by double underscores (i.e. __init__) and
+can make classes and objects behave in different and magical ways.
+
+    `A Guide to Python's Magic Methods <http://www.rafekettler.com/magicmethods.html>`_
+
+
 For Engineers and Scientists
 ----------------------------
 
@@ -179,6 +189,7 @@ Miscellaneous topics
 
 Problem Solving with Algorithms and Data Structures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Problem Solving with Algorithms and Data Structures covers a range of data structures and
 algorithms. All concepts are illustrated with Python code along with interactive samples
 that can be run directly in the browser.
@@ -188,8 +199,9 @@ that can be run directly in the browser.
 
 Programming Collective Intelligence
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Programming Collective Intelligence introduces a wide array of basic machine learning and
-data mining methods. The exposition is not very mathematically formal, but rather focuses 
+data mining methods. The exposition is not very mathematically formal, but rather focuses
 on explaining the underlying intuition and shows how to implement the algorithms in Python.
 
     `Programming Collective Intelligence <http://shop.oreilly.com/product/9780596529321.do>`_
@@ -213,7 +225,7 @@ This is Python's reference manual, it covers the syntax and the core semantics o
 language.
 
     `The Python Language Reference <http://docs.python.org/reference/index.html>`_
-    
+
 Python Pocket Reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -223,17 +235,25 @@ Python 3 and 2.6 versions.
 
     `Python Pocket Reference <http://shop.oreilly.com/product/9780596158095.do>`_
 	
+Python Cookbook
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Python Cookbook, written by David Beazley and Brian K. Jones, is packed with
+practical recipes. This book covers the core python language as well as tasks
+common to a wide variety of application domains.
+
+    `Python Cookbook <http://shop.oreilly.com/product/0636920027072.do>`_
+
 Writing Idiomatic Python
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 "Writing Idiomatic Python", written by Jeff Knupp, contains the most common and
-important Python idioms in a format that maximizes identification and understanding. 
-Each idiom is presented as a recommendation to write some commonly used piece of code.
-It is followed by an explanation of why the idiom is important. It also contains two 
-code samples: the "Harmful" way to write it and the "Idiomatic" way
+important Python idioms in a format that maximizes identification and understanding.
+Each idiom is presented as a recommendation of a way to write some commonly
+used piece of code, followed by an explanation of why the idiom is important.
+It also contains two code samples for each idiom: the "Harmful" way to write it
+and the "Idiomatic" way.
 
 	`For Python 2.7.3+ <http://www.amazon.com/Writing-Idiomatic-Python-2-7-3-Knupp/dp/1482372177/>`_
 	
 	`For Python 3.3+  <http://www.amazon.com/Writing-Idiomatic-Python-Jeff-Knupp-ebook/dp/B00B5VXMRG/>`_
-
-

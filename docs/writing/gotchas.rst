@@ -79,7 +79,7 @@ signal that no argument was provided (:py:data:`None` is often a good choice).
 When the Gotcha Isn't a Gotcha
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes you specifically can "exploit" (read: use as intended) this behavior
+Sometimes you can specifically "exploit" (read: use as intended) this behavior
 to maintain state between calls of a function. This is often done when writing
 a caching function.
 
@@ -126,7 +126,7 @@ What Does Happen
     8
     8
 
-Five functions are created, but all of them just multiply ``x`` by 4.
+Five functions are created; instead all of them just multiply ``x`` by 4.
 
 Python's closures are *late binding*.
 This means that the values of variables used in closures are looked
@@ -172,7 +172,7 @@ Alternatively, you can use the functools.partial function:
 
     from functools import partial
     from operator import mul
-    
+
     def create_multipliers():
         return [partial(mul, i) for i in range(5)]
 

@@ -13,7 +13,7 @@ double-click the file. The MSI package format allows Windows administrators to
 automate installation with their standard tools.
 
 By design, Python installs to a directory with the version number embedded,
-e.g. Python version 2.7 will install at :file:`C:\Python27\`, so that you can
+e.g. Python version 2.7 will install at :file:`C:\\Python27\\`, so that you can
 have multiple versions of Python on the
 same system without conflicts. Of course, only one interpreter can be the
 default application for Python file types. It also does not automatically
@@ -22,7 +22,7 @@ which copy of Python is run.
 
 Typing the full path name for a Python interpreter each time quickly gets
 tedious, so add the directories for your default Python version to the :envvar:`PATH`.
-Assuming that your Python installation is in :file:`C:\Python27\`, add this to your
+Assuming that your Python installation is in :file:`C:\\Python27\\`, add this to your
 :envvar:`PATH`:
 
 .. code-block:: console
@@ -53,7 +53,7 @@ download and install any compliant Python software product with a single
 command. It also enables you to add this network installation capability to
 your own Python software with very little work.
 
-To obtain the latest version of Setuptools for Windows, run the python script
+To obtain the latest version of Setuptools for Windows, run the Python script
 available here: `ez_setup.py <https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py>`_
 
 
@@ -62,7 +62,7 @@ considered by many to be deprecated, so we will install its replacement:
 **pip**. Pip allows for uninstallation of packages, and is actively maintained,
 unlike easy_install.
 
-To install pip, run the python script available here:
+To install pip, run the Python script available here:
 `get-pip.py <https://raw.github.com/pypa/pip/master/contrib/get-pip.py>`_
 
 

@@ -47,7 +47,7 @@ The script will explain what changes it will make and prompt you before the
 installation begins.
 Once you've installed Homebrew, insert the Homebrew directory at the top
 of your :envvar:`PATH` environment variable. You can do this by adding the following
-line at the bottom of your :file:`~/.bashrc` file
+line at the bottom of your :file:`~/.profile` file
 
 .. code-block:: console
 
@@ -59,28 +59,22 @@ Now, we can install Python 2.7:
 
     $ brew install python
 
-This will take a minute or two. Once that's complete, you'll have to add the
-new Python scripts directory to your :envvar:`PATH`
-
-.. code-block:: console
-
-    export PATH=/usr/local/share/python:$PATH
+This will take a minute or two. 
 
 
 Setuptools & Pip
 ----------------
 
-The most crucial third-party Python software of all is Setuptools, which
-extends the packaging and installation facilities provided by the distutils
-in the standard library. Once you add Setuptools to your Python system you can
-download and install any compliant Python software product with a single
-command. It also enables you to add this network installation capability to
-your own Python software with very little work. Homebrew already installed
-Setuptools for you.
+Homebrew installs Setuptools and ``pip`` for you.
 
-Happily, when you ran `brew install python`, Homebrew also installed **pip**.
-Pip allows for installation and uninstallation of packages, and is actively
-maintained.
+Setuptools enables you to download and install any compliant Python
+software over a network (usually the Internet) with a single command
+(``easy_install``). It also enables you to add this network installation
+capability to your own Python software with very little work.
+
+``pip`` is a tool for easily installing and managing Python packages,
+that is recommended over ``easy_install``. It is superior to ``easy_install`` in `several ways <https://pip.pypa.io/en/1.5.X/other-tools.html#easy-install>`_,
+and is actively maintained.
 
 
 Virtualenv
@@ -119,7 +113,7 @@ environment. Put your own code within a subdirectory of the environment,
 however you wish. When you no longer need a particular environment, simply
 copy your code out of it, and then delete the main directory for the environment.
 
-An useful set of extensions to virtualenv is available in virtualenvwrapper,
+A useful set of extensions to virtualenv is available in virtualenvwrapper,
 `RTFD <http://virtualenvwrapper.readthedocs.org/en/latest/>`_ to find out more.
 
 --------------------------------
